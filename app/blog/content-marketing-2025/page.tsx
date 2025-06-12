@@ -5,8 +5,14 @@ import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
-  title: "Content Marketing in 2025: What Every Business Needs to Know | Quality Marketing Blog",
-  description: "In the ever-evolving digital landscape, content marketing continues to be the cornerstone of brand visibility, trust-building, and sales growth. Learn what will set successful brands apart in 2025.",
+  title: "Content Marketing 2025: The Rise of AI-Generated Content and How to Stay Ahead | Quality Marketing Blog",
+  description: "AI is revolutionizing content creation, but human creativity still reigns supreme. Discover how to blend AI tools with human expertise to create content that resonates with your audience in 2025.",
+  openGraph: {
+    title: "Content Marketing 2025: The Rise of AI-Generated Content and How to Stay Ahead | Quality Marketing Blog",
+    description: "AI is revolutionizing content creation, but human creativity still reigns supreme. Discover how to blend AI tools with human expertise to create content that resonates with your audience in 2025.",
+    type: "article",
+    authors: ["Quality Marketing Team"],
+  }
 }
 
 export default function BlogPost() {
@@ -32,7 +38,7 @@ export default function BlogPost() {
 
             <div className="flex items-center mb-8">
               <div className="relative w-10 h-10 rounded-full overflow-hidden mr-3">
-                <Image src="/images/team/team-1.jpg" alt="Quality Marketing Team" fill className="object-cover" />
+                <Image src="/images/placeholder-user.jpg" alt="Quality Marketing Team" fill className="object-cover" />
               </div>
               <div>
                 <p className="font-medium">Quality Marketing Team</p>
@@ -47,7 +53,7 @@ export default function BlogPost() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto">
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden mb-10">
-              <Image src="/images/Blog_Image3.jpg" alt="Content marketing strategy visualization" fill className="object-cover" />
+              <Image src="/images/Blog_Image3.webp" alt="Content marketing strategy visualization" fill className="object-cover" />
             </div>
 
             <article className="prose prose-lg dark:prose-invert max-w-none">

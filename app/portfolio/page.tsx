@@ -34,7 +34,7 @@ export default function PortfolioPage() {
                 <div className="bg-card rounded-lg overflow-hidden border border-border transition-all duration-300 group-hover:border-primary/50 group-hover:shadow-lg h-full flex flex-col">
                   <div className="relative h-64 w-full">
                     <Image
-                      src={project.image || "/placeholder.svg"}
+                      src={project.image || "/placeholder.webp"}
                       alt={project.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -150,7 +150,7 @@ export default function PortfolioPage() {
 
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=800&width=600&text=Our Process"
+                src="/placeholder.webp?height=800&width=600&text=Our%20Process"
                 alt="Our project process"
                 fill
                 className="object-cover"

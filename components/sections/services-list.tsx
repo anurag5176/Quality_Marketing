@@ -24,7 +24,7 @@ export default function ServicesList() {
         "Content management systems",
         "Website maintenance and support",
       ],
-      image: "/images/Web_design.jpeg",
+      image: "/images/Web_design.webp",
     },
     {
       id: "digital-marketing",
@@ -40,7 +40,7 @@ export default function ServicesList() {
         "Remarketing strategies",
         "Performance tracking and analytics",
       ],
-      image: "/images/Digital Marketing.jpeg",
+      image: "/images/Digital Marketing.webp",
     },
     {
       id: "brand-strategy",
@@ -56,7 +56,7 @@ export default function ServicesList() {
         "Brand storytelling",
         "Competitive analysis",
       ],
-      image: "/images/Brand_Strategy.jpeg",
+      image: "/images/Brand_Strategy.webp",
     },
     {
       id: "social-media",
@@ -72,7 +72,7 @@ export default function ServicesList() {
         "Influencer marketing",
         "Social media analytics and reporting",
       ],
-      image: "/images/Social_Media_Marketing.jpeg",
+      image: "/images/Social_Media_Marketing.webp",
     },
     {
       id: "seo",
@@ -88,7 +88,7 @@ export default function ServicesList() {
         "Local SEO",
         "SEO performance tracking",
       ],
-      image: "/images/SEO_Marketing.jpeg",
+      image: "/images/SEO_Marketing.webp",
     },
     {
       id: "content-marketing",
@@ -104,23 +104,17 @@ export default function ServicesList() {
         "Infographic design",
         "Content distribution strategies",
       ],
-      image: "/images/Content_Marketing.jpeg",
+      image: "/images/Content_Marketing.webp",
     },
   ]
 
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0, y: 40 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
+      y: 0,
+      transition: { duration: 0.7, ease: [0.19, 1, 0.22, 1] },
     },
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.7 } },
   }
 
   return (
@@ -133,9 +127,8 @@ export default function ServicesList() {
           className="space-y-32"
         >
           {services.map((service, index) => (
-            <motion.div
+            <div
               key={service.id}
-              variants={itemVariants}
               id={service.id}
               className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${
                 index % 2 === 1 ? "lg:flex-row-reverse" : ""
@@ -169,9 +162,16 @@ export default function ServicesList() {
                   index % 2 === 1 ? "lg:order-1" : ""
                 }`}
               >
-                <Image src={service.image || "/placeholder.svg"} alt={service.title} fill className="object-cover" />
+                <Image
+                  src={service.image || "/placeholder.webp"}
+                  alt={service.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority={index === 0}
+                />
               </div>
-            </motion.div>
+            </div>
           ))}
         </motion.div>
       </div>

@@ -9,7 +9,7 @@ export default function BlogSection() {
     {
       title: "Why Quality Marketing Matters in Today's Digital Landscape",
       excerpt: "Discover why quality marketing is crucial for business success in the digital age. Learn how to stand out in a crowded market.",
-      image: "/images/Blog_image.png",
+      image: "/images/Blog_image.webp",
       category: "Digital Marketing",
       date: "April 24, 2025",
       slug: "/blog/why-quality-marketing-matters",
@@ -17,7 +17,7 @@ export default function BlogSection() {
     {
       title: "Viral in Seconds: Why Short-Form Video Is the Future of Digital Marketing in 2025",
       excerpt: "Discover why short-form video content is revolutionizing digital marketing and how your brand can leverage this trend for maximum impact.",
-      image: "/images/Blog_Image2.jpg",
+      image: "/images/Blog_Image2.webp",
       category: "Digital Marketing",
       date: "April 25, 2025",
       slug: "/blog/viral-in-seconds",
@@ -25,7 +25,7 @@ export default function BlogSection() {
     {
       title: "Content Marketing in 2025: What Every Business Needs to Know",
       excerpt: "Discover the latest trends and strategies in content marketing that will help your business thrive in 2025 and beyond.",
-      image: "/images/Blog_Image3.jpg",
+      image: "/images/Blog_Image3.webp",
       category: "Content Marketing",
       date: "April 26, 2025",
       slug: "/blog/content-marketing-2025",
@@ -33,7 +33,7 @@ export default function BlogSection() {
     {
       title: "Red Bull's Marketing Strategy in India: How a Drink Became a Lifestyle",
       excerpt: "What do extreme sports, breakdancing, and viral YouTube videos have in common? If you're in India, the answer is simple—Red Bull. This isn't just a beverage; it's a brand that sells energy, attitude, and adrenaline.",
-      image: "/images/Blog_Image4.jpg",
+      image: "/images/Blog_Image4.webp",
       category: "Marketing Strategy",
       date: "April 27, 2025",
       slug: "/blog/red-bull-marketing-strategy",

@@ -58,7 +58,7 @@ export default function WhyChooseUs() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative w-3/4 h-3/4">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&text=Abstract Illustration"
+                  src="/placeholder.webp?height=600&width=800&text=Abstract%20Illustration"
                   alt="Why choose us illustration"
                   fill
                   className="object-contain"

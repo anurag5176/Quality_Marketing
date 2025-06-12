@@ -7,6 +7,12 @@ import { Button } from "@/components/ui/button"
 export const metadata: Metadata = {
   title: "Viral in Seconds: Why Short-Form Video Is the Future of Digital Marketing in 2025 | Quality Marketing Blog",
   description: "Digital attention spans are shrinking, but short-form video content is exploding. Learn why Instagram Reels, TikToks, and YouTube Shorts are dominating digital marketing — and how your business can ride the wave.",
+  openGraph: {
+    title: "Viral in Seconds: Why Short-Form Video Is the Future of Digital Marketing in 2025 | Quality Marketing Blog",
+    description: "Digital attention spans are shrinking, but short-form video content is exploding. Learn why Instagram Reels, TikToks, and YouTube Shorts are dominating digital marketing — and how your business can ride the wave.",
+    type: "article",
+    authors: ["Quality Marketing Team"],
+  }
 }
 
 export default function BlogPost() {
@@ -32,7 +38,7 @@ export default function BlogPost() {
 
             <div className="flex items-center mb-8">
               <div className="relative w-10 h-10 rounded-full overflow-hidden mr-3">
-                <Image src="/images/team/team-1.jpg" alt="Quality Marketing Team" fill className="object-cover" />
+                <Image src="/images/placeholder-user.jpg" alt="Quality Marketing Team" fill className="object-cover" />
               </div>
               <div>
                 <p className="font-medium">Quality Marketing Team</p>
@@ -47,7 +53,7 @@ export default function BlogPost() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto">
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden mb-10">
-              <Image src="/images/Blog_Image2.jpg" alt="Short-form video content on smartphone" fill className="object-cover" />
+              <Image src="/images/Blog_Image2.webp" alt="Short-form video content on smartphone" fill className="object-cover" />
             </div>
 
             <article className="prose prose-lg dark:prose-invert max-w-none">

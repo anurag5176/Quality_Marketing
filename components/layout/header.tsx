@@ -59,10 +59,10 @@ export default function Header() {
               className="flex items-center"
             >
               <Image
-                src="/images/quality-marketing-logo.png"
+                src="/images/quality-marketing-logo.webp"
                 alt="Quality Marketing Logo"
-                width={220}
-                height={70}
+                width={150}
+                height={40}
                 className="h-14 w-auto max-w-[220px]"
                 priority
               />
@@ -86,7 +86,9 @@ export default function Header() {
                   href={item.href}
                   className={`relative text-sm font-medium transition-colors ${
                     isActive(item.href)
-                      ? "font-bold underline underline-offset-4 bg-yellow-200 text-[#000443]"
+                      ? `font-bold border-b-2 border-primary ${
+                          scrolled ? "text-white" : "text-[#000443]"
+                        }`
                       : ""
                   } ${
                     scrolled
@@ -156,7 +158,7 @@ export default function Header() {
                         href={item.href}
                         className={`text-xl font-medium ${
                           isActive(item.href)
-                            ? "font-bold underline underline-offset-4 text-[#000443]"
+                            ? "font-bold border-b-2 border-primary text-[#000443]"
                             : "text-navy/70"
                         }`}
                       >

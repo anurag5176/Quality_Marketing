@@ -17,14 +17,14 @@ export default function BlogGrid() {
       excerpt: "In today's fast-paced digital world, every business, big or small, is striving to stand out, connect with its audience, and convert interest into loyalty.",
       date: "April 24, 2025",
       author: "Quality Marketing Team",
-      authorImage: "/images/team/team-1.jpg",
+      authorImage: "/images/placeholder-user.jpg",
       category: "Marketing",
-      image: "/images/Blog_image.png",
+      image: "/images/Blog_image.webp",
     },
     {
       title: "Viral in Seconds: Why Short-Form Video Is the Future of Digital Marketing in 2025",
       excerpt: "Discover why short-form video content is revolutionizing digital marketing and how your brand can leverage this trend for maximum impact.",
-      image: "/images/Blog_Image2.jpg",
+      image: "/images/Blog_Image2.webp",
       category: "Digital Marketing",
       date: "April 25, 2025",
       slug: "/blog/viral-in-seconds",
@@ -32,7 +32,7 @@ export default function BlogGrid() {
     {
       title: "Content Marketing in 2025: What Every Business Needs to Know",
       excerpt: "Discover the latest trends and strategies in content marketing that will help your business thrive in 2025 and beyond.",
-      image: "/images/Blog_Image3.jpg",
+      image: "/images/Blog_Image3.webp",
       category: "Content Marketing",
       date: "April 26, 2025",
       slug: "/blog/content-marketing-2025",
@@ -40,7 +40,7 @@ export default function BlogGrid() {
     {
       title: "Red Bull's Marketing Strategy in India: How a Drink Became a Lifestyle",
       excerpt: "What do extreme sports, breakdancing, and viral YouTube videos have in common? If you're in India, the answer is simple—Red Bull. This isn't just a beverage; it's a brand that sells energy, attitude, and adrenaline.",
-      image: "/images/Blog_Image4.jpg",
+      image: "/images/Blog_Image4.webp",
       category: "Marketing Strategy",
       date: "April 27, 2025",
       slug: "/blog/red-bull-marketing-strategy",
@@ -76,8 +76,7 @@ export default function BlogGrid() {
         <motion.div
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
+          animate="visible"
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {currentPosts.map((post, index) => (

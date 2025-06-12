@@ -61,7 +61,7 @@ export default function BlogPost() {
             <div className="w-full flex justify-center mb-10">
               <div className="relative w-full max-w-2xl h-[400px] rounded-lg overflow-hidden">
                 <Image
-                  src="/images/Blog_image.png"
+                  src="/images/Blog_image.webp"
                   alt="Quality Marketing"
                   fill
                   className="object-contain"

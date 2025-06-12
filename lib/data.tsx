@@ -175,7 +175,7 @@ export const portfolioProjects = [
     id: "luxury-brand-relaunch",
     title: "Luxury Brand Relaunch",
     category: "Branding & Strategy",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/placeholder.webp?height=600&width=800",
     summary:
       "A complete brand overhaul for a luxury fashion retailer, resulting in 200% increase in brand engagement and 45% growth in sales.",
     tags: ["Branding", "Digital Strategy", "Web Design"],
@@ -184,7 +184,7 @@ export const portfolioProjects = [
     id: "tech-startup-growth",
     title: "Tech Startup Growth Campaign",
     category: "Digital Marketing",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/placeholder.webp?height=600&width=800",
     summary:
       "Comprehensive digital marketing strategy for a SaaS startup, driving user acquisition and establishing market presence.",
     tags: ["SEM", "Content Marketing", "Social Media"],
@@ -193,7 +193,7 @@ export const portfolioProjects = [
     id: "hospitality-rebrand",
     title: "Luxury Hotel Chain Rebrand",
     category: "Branding & Digital",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/placeholder.webp?height=600&width=800",
     summary:
       "Strategic rebranding and digital presence overhaul for a boutique hotel chain, positioning them as a luxury destination.",
     tags: ["Branding", "Web Development", "SEO"],
@@ -202,7 +202,7 @@ export const portfolioProjects = [
     id: "ecommerce-optimization",
     title: "E-commerce Conversion Optimization",
     category: "E-commerce & CRO",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/placeholder.webp?height=600&width=800",
     summary:
       "Data-driven optimization of an e-commerce platform, focusing on user experience and conversion rate improvement.",
     tags: ["UX Design", "CRO", "Analytics"],
@@ -217,9 +217,9 @@ export const blogPosts = [
     excerpt: "Discover why quality marketing is crucial for business success in the digital age. Learn how to stand out in a crowded market.",
     date: "April 24, 2025",
     author: "Quality Marketing Team",
-    authorImage: "/images/team/team-1.jpg",
+    authorImage: "/images/placeholder-user.jpg",
     category: "Digital Marketing",
-    image: "/images/Blog_image.jpg",
+    image: "/images/Blog_image.webp",
   },
   {
     slug: "viral-in-seconds",
@@ -227,9 +227,9 @@ export const blogPosts = [
     excerpt: "Discover why short-form video content is revolutionizing digital marketing and how your brand can leverage this trend for maximum impact.",
     date: "April 25, 2025",
     author: "Quality Marketing Team",
-    authorImage: "/images/team/team-1.jpg",
+    authorImage: "/images/placeholder-user.jpg",
     category: "Digital Marketing",
-    image: "/images/Blog_Image2.jpg",
+    image: "/images/Blog_Image2.webp",
   },
   {
     slug: "content-marketing-2025",
@@ -237,9 +237,9 @@ export const blogPosts = [
     excerpt: "Discover the latest trends and strategies in content marketing that will help your business thrive in 2025 and beyond.",
     date: "April 26, 2025",
     author: "Quality Marketing Team",
-    authorImage: "/images/team/team-1.jpg",
+    authorImage: "/images/placeholder-user.jpg",
     category: "Content Marketing",
-    image: "/images/Blog_Image3.jpg",
+    image: "/images/Blog_Image3.webp",
   },
   {
     slug: "red-bull-marketing-strategy",
@@ -247,8 +247,8 @@ export const blogPosts = [
     excerpt: "What do extreme sports, breakdancing, and viral YouTube videos have in common? If you're in India, the answer is simple—Red Bull. This isn't just a beverage; it's a brand that sells energy, attitude, and adrenaline.",
     date: "April 27, 2025",
     author: "Quality Marketing Team",
-    authorImage: "/images/team/team-1.jpg",
+    authorImage: "/images/placeholder-user.jpg",
     category: "Marketing Strategy",
-    image: "/images/Blog_Image4.jpg",
+    image: "/images/Blog_Image4.webp",
   },
 ]

@@ -6,8 +6,14 @@ import { Button } from "@/components/ui/button"
 import CTABanner from "@/components/sections/cta-banner"
 
 export const metadata: Metadata = {
-  title: "Red Bull's Marketing Strategy in India: How a Drink Became a Lifestyle | Quality Marketing Blog",
-  description: "What do extreme sports, breakdancing, and viral YouTube videos have in common? If you're in India, the answer is simple—Red Bull. This isn't just a beverage; it's a brand that sells energy, attitude, and adrenaline.",
+  title: "Red Bull's Marketing Strategy: How They Became a Global Brand Without Traditional Advertising | Quality Marketing Blog",
+  description: "Red Bull's marketing strategy goes beyond traditional advertising. Learn how they've built a global brand through content marketing, event sponsorship, and experiential marketing.",
+  openGraph: {
+    title: "Red Bull's Marketing Strategy: How They Became a Global Brand Without Traditional Advertising | Quality Marketing Blog",
+    description: "Red Bull's marketing strategy goes beyond traditional advertising. Learn how they've built a global brand through content marketing, event sponsorship, and experiential marketing.",
+    type: "article",
+    authors: ["Quality Marketing Team"],
+  }
 }
 
 export default function BlogPost() {
@@ -33,7 +39,7 @@ export default function BlogPost() {
 
             <div className="flex items-center mb-8">
               <div className="relative w-10 h-10 rounded-full overflow-hidden mr-3">
-                <Image src="/images/team/team-1.jpg" alt="Quality Marketing Team" fill className="object-cover" />
+                <Image src="/images/placeholder-user.jpg" alt="Quality Marketing Team" fill className="object-cover" />
               </div>
               <div>
                 <p className="font-medium">Quality Marketing Team</p>
@@ -48,7 +54,7 @@ export default function BlogPost() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto">
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden mb-10">
-              <Image src="/images/Blog_Image4.jpg" alt="Red Bull marketing event in India" fill className="object-cover" />
+              <Image src="/images/Blog_Image4.webp" alt="Red Bull marketing event in India" fill className="object-cover" />
             </div>
 
             <article className="prose prose-lg dark:prose-invert max-w-none">

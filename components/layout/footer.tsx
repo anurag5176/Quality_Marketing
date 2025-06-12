@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-6">
-              <Image src="/images/footerlogo.png" alt="Quality Marketing Logo" width={150} height={28} />
+              <Image src="/images/footerlogo.webp" alt="Quality Marketing Logo" width={150} height={28} />
             </div>
             <p className="text-white/70 mb-6">
               Innovative marketing solutions, powered by young minds. We blend fresh ideas with proven strategy to

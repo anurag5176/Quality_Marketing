@@ -51,7 +51,7 @@ export default function AboutVision() {
             className="relative h-[500px] rounded-2xl overflow-hidden pt-12"
           >
             <Image
-              src="/images/About_Us.png"
+              src="/images/About_Us.webp"
               alt="Our Vision"
               fill
               className="object-cover object-left-top"

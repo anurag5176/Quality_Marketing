@@ -32,7 +32,7 @@ export default function AboutPageClient() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=800&width=600"
+                src="/placeholder.webp?height=800&width=600"
                 alt="Our mission"
                 fill
                 className="object-cover"
@@ -85,7 +85,7 @@ export default function AboutPageClient() {
               <div className="flex items-center mt-8">
                 <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
                   <Image
-                    src="/placeholder.svg?height=100&width=100"
+                    src="/placeholder.webp?height=100&width=100"
                     alt="Jane Smith - Founder & CEO"
                     fill
                     className="object-cover"
@@ -98,7 +98,7 @@ export default function AboutPageClient() {
               </div>
             </div>
             <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden order-1 lg:order-2">
-              <Image src="/placeholder.svg?height=800&width=600" alt="Founder portrait" fill className="object-cover" />
+              <Image src="/placeholder.webp?height=800&width=600" alt="Founder portrait" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function AboutPageClient() {
               <div key={index} className="text-center">
                 <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden mb-6">
                   <Image
-                    src={`/placeholder.svg?height=200&width=200&text=Team Member ${index}`}
+                    src={`/placeholder.webp?height=200&width=200&text=Team%20Member%20${index}`}
                     alt={`Team Member ${index}`}
                     fill
                     className="object-cover"

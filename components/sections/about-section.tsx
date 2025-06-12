@@ -64,8 +64,8 @@ export default function AboutSection() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-navy/20 to-transparent rounded-2xl"></div>
             <Image
-              src="/images/Home_Page.png"
-              alt="Quality Marketing Team"
+              src="/images/Home_Page.webp"
+              alt="Quality Marketing team working"
               fill
               className="object-cover"
             />

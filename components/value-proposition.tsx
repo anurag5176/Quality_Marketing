@@ -6,7 +6,7 @@ export default function ValueProposition() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative h-[500px] rounded-lg overflow-hidden">
-            <Image src="/placeholder.svg?height=800&width=600" alt="Our approach" fill className="object-cover" />
+            <Image src="/placeholder.webp?height=800&width=600" alt="Our approach" fill className="object-cover" />
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-playfair font-medium mb-6">Why Choose Quality Marketing</h2>
