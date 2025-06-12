@@ -101,8 +101,8 @@ export default function ContactForm() {
                   <div>
                     <h3 className="text-lg font-medium mb-2">Email Us</h3>
                     <p className="text-navy/70">
-                      <a href="mailto:as.srivastava100@gmail.com" className="hover:text-navy transition-colors">
-                        as.srivastava100@gmail.com
+                      <a href="mailto:qualitymarketing.qm@gmail.com" className="hover:text-navy transition-colors">
+                        qualitymarketing.qm@gmail.com
                       </a>
                     </p>
                   </div>
