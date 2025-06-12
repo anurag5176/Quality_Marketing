@@ -21,15 +21,15 @@ export async function POST(req: Request) {
       port: 587,
       secure: false,
       auth: {
-        user: 'qualitymarketing.qm@gmail.com',
+        user: 'as.srivastava100@gmail.com',
         pass: 'mkhn mbat hfbu orax'
       },
     })
 
     // Email content
     const mailOptions = {
-      from: 'qualitymarketing.qm@gmail.com',
-      to: 'qualitymarketing.qm@gmail.com',
+      from: 'as.srivastava100@gmail.com',
+      to: 'as.srivastava100@gmail.com',
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>

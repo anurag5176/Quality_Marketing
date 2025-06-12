@@ -67,23 +67,6 @@ export default function ServicesSection() {
     },
   ]
 
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-      },
-    },
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.19, 1, 0.22, 1] } },
-  }
-
   return (
     <section className="py-20 md:py-32 bg-white" id="services">
       <div className="container mx-auto px-4 md:px-6">
@@ -118,20 +101,13 @@ export default function ServicesSection() {
           </motion.p>
         </div>
 
-        <motion.div
-          ref={containerRef}
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <motion.div key={index} variants={itemVariants} className="h-full">
+            <div key={index} className="h-full">
               <Card3D icon={service.icon} title={service.title} description={service.description} link={service.link} />
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   )
