@@ -94,14 +94,14 @@ export default function ContactForm() {
               </div>
 
               <div className="bg-offwhite p-6 rounded-lg">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-10 h-10 bg-navy/10 rounded-full flex items-center justify-center mr-4">
+                <div className="flex items-start gap-x-4">
+                  <div className="flex-shrink-0 w-10 h-10 bg-navy/10 rounded-full flex items-center justify-center">
                     <Mail className="h-5 w-5 text-navy" />
                   </div>
-                  <div>
+                  <div className="flex-grow min-w-0 overflow-hidden">
                     <h3 className="text-lg font-medium mb-2">Email Us</h3>
-                    <p className="text-navy/70 break-words">
-                      <a href="mailto:qualitymarketing.qm@gmail.com" className="hover:text-navy transition-colors">
+                    <p className="text-navy/70 break-words w-full">
+                      <a href="mailto:qualitymarketing.qm@gmail.com" className="hover:text-navy transition-colors break-all block text-sm">
                         qualitymarketing.qm@gmail.com
                       </a>
                     </p>
