@@ -15,21 +15,28 @@ export async function POST(req: Request) {
   try {
     const { name, email, phone, company, message } = await req.json()
 
-    // Create a transporter using Gmail
+    const emailUser = process.env.CONTACT_EMAIL_USER
+    const emailPass = process.env.CONTACT_EMAIL_APP_PASSWORD
+    if (!emailUser || !emailPass) {
+      return NextResponse.json(
+        { message: 'Email not configured' },
+        { status: 503 }
+      )
+    }
+
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
       port: 587,
       secure: false,
       auth: {
-        user: 'as.srivastava100@gmail.com',
-        pass: 'mkhn mbat hfbu orax'
+        user: emailUser,
+        pass: emailPass,
       },
     })
 
-    // Email content
     const mailOptions = {
-      from: 'as.srivastava100@gmail.com',
-      to: 'as.srivastava100@gmail.com',
+      from: emailUser,
+      to: emailUser,
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
